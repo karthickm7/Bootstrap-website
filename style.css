@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+}
+
+/*------navbar-----*/
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+
+.bold{
+    font-size: 25px;
+
+}
+
+li{
+    padding: 5px;
+}
+
+/*----navigation links---*/
+
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid red;
+    transition:.1s;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+/*---Home--*/
+
+span{
+    color: brown;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+}
+
+#Home img{
+    border-radius: 30px
+}
+
+/*---About---*/
+#About img{
+    width: 35rem;
+    border-radius: 30px;
+}
+
+/*----services---*/
+
+.card img{
+    height: 200px;
+    transition: 1s;
+}
+
+.inner{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+/*----Contact----*/
+
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2),
+                -1px -1px 5px rgba(0,0,0,.2);
+    border-radius: 30px;            
+}
